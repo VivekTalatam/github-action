@@ -12,11 +12,5 @@ jobs:
         run: ls -ltr
       - name: Printing Goodbye
         run: echo " Bye Bye user :) "
-      - name: chaning directory 
-        run: sudo cd /
-      - name: Printing Current Working Directory
-        run: pwd
-      - name: listing root directory
-        run: ls -ltr
         
         
