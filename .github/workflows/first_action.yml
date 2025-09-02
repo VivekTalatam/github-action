@@ -6,9 +6,13 @@ jobs:
     steps:
       - name: Printing Greetings
         run: echo " Hello World :) "
+      - name: listing directory
         run: ls -ltr
       - name: Printing Goodbye
         run: echo " Bye Bye user :) "
+      - name: chaning directory 
         run: cd /
+      - name: listing root directory
         run: ls -ltr
+        
         
