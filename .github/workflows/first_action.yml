@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: Printing Greetings
         run: echo " Hello World :) "
+        run: ls -ltr
       - name: Printing Goodbye
         run: echo " Bye Bye user :) "
+        run: cd /
+        run: ls -ltr
+        
