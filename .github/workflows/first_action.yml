@@ -12,5 +12,16 @@ jobs:
         run: ls -ltr
       - name: Printing Goodbye
         run: echo " Bye Bye user :) "
+  second-job:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: creating a file
+        run: touch file1.txt
+      - name: Adding info to the file
+        run: cat > file1.txt
+             wasd
+      - name: checking file
+        run: cat file1.txt
         
+              
         
