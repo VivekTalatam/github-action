@@ -18,8 +18,7 @@ jobs:
       - name: creating a file
         run: touch file1.txt
       - name: Adding info to the file
-        run: cat > file1.txt
-             wasd
+        run: echo " Hello Team " > file1.txt
       - name: checking file
         run: cat file1.txt
         
